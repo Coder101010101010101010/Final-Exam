@@ -54,12 +54,16 @@ except ValueError:
 age = age1 + age2
 
 print ('you will be ' + str(age) + ' years old next year')
-
+print ('')
 
 # Parameters/Arguments
-#
+# counting 7 times
 
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
 
+print_multiple_times('you are reading this 7 times you just wnt back and counted',7)
 
 # break and continue
 # math problem
@@ -82,3 +86,5 @@ while True:
         print ("you got it right ")
         break
         
+print ('')
+print ('you are done!')
