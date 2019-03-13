@@ -1,20 +1,31 @@
-# Joe Hill
-# Final Exam Number's code
+'''
+Joe Hill
+Final Exam
+Numbers are Funner
+This program has multiple number games have fun!
+'''
 
+print ("Joe Hill")
+print ('')
+print ("Numbers are Funner")
+print ('')
 print ("hope you like numbers")
 
 # For Loops
 # counting
 
-print ("do you like to count to 100? Well to bad if you don't")
-for i in range(101):
+print ('')
+print ("do you like to count?")
+print ('')
+for i in range(1, 11):
     print(i)
 
 
 # while loops
+# guess my number
 
 my_number = 42
-
+print ('')
 print ("Guess a number between 1 and 50")
 print ("")
 
@@ -28,6 +39,22 @@ while guess != my_number:
 print ("")
 print ("Good job you have guessed it")
 
+
+# functions
+# your age next year
+
+
+age1 = 1
+
+try:
+    age2 = int(input('Enter your age: '))
+except ValueError:
+    print('\n''That wasn\'t an integer for your age')
+
+
+age = age1 + age2
+
+print ('you will be ' + str(age) + ' years old next year')
 
 # break and continue
 # math problem
