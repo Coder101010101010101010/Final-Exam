@@ -15,7 +15,7 @@ print ("hope you like numbers")
 # counting
 
 print ('')
-print ("do you like to count?")
+print ("Do you like to count?")
 print ('')
 for i in range(1, 11):
     print(i)
@@ -53,7 +53,7 @@ except ValueError:
 
 age = age1 + age2
 
-print ('you will be ' + str(age) + ' years old next year')
+print ('You will be ' + str(age) + ' years old next year')
 print ('')
 
 # Parameters/Arguments
@@ -63,7 +63,7 @@ def print_multiple_times(string, times):
     for i in range(times):
         print(string)
 
-print_multiple_times('you are reading this 7 times you just wnt back and counted',7)
+print_multiple_times('numbers are funner!',7)
 
 # break and continue
 # math problem
@@ -87,4 +87,4 @@ while True:
         break
         
 print ('')
-print ('you are done!')
+print ('You are done!')
